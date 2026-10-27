@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>НЕОН-АРЕНА — 2D-шутер</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="game"></canvas>
+
+  <div id="overlay">
+    <div class="panel">
+      <div class="tag">2D ARENA SHOOTER</div>
+      <h1 id="ov-title">НЕОН-АРЕНА</h1>
+      <p id="ov-text"></p>
+
+      <div class="keys" id="ov-keys">
+        <div><span class="k"><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></span><span>движение</span></div>
+        <div><span class="k"><kbd>Мышь</kbd></span><span>прицел и огонь</span></div>
+        <div><span class="k"><kbd>Пробел</kbd></span><span>рывок сквозь врагов</span></div>
+        <div><span class="k"><kbd>Esc</kbd></span><span>пауза &nbsp;·&nbsp; <kbd>M</kbd> звук</span></div>
+      </div>
+
+      <button id="ov-btn">ИГРАТЬ</button>
+      <div class="hint">Держись подальше от толпы, бей в упор рывком и собирай бонусы.</div>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
